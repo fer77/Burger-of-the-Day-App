@@ -1,0 +1,68 @@
+/* Global */
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #f5df55;
+  background-size: 96px 96px;
+  font: 700 24px/1.5 "Amatic SC", cursive;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+h1 {
+  color: #fff;
+  font-size: 200%;
+  margin-top: 0.5em; }
+
+/* Layout */
+.container {
+  display: inline-block;
+  max-width: 600px;
+  text-align: left;
+  vertical-align: top;
+  width: 87.5%; }
+
+main {
+  padding: 1em 0; }
+
+/* Special */
+.special {
+  background: #fff;
+  border: 2px solid #222;
+  border-radius: 18px 28px 12px 24px;
+  padding: 0.5em 1.5em;
+  position: relative; }
+
+  .special:after {
+    border: 0.125em solid #000;
+    border-radius: 18px 28px 12px 24px;
+    bottom: 0.25em;
+    content: "";
+    left: 0.25em;
+    position: absolute;
+    right: 0.25em;
+    top: 0.25em; }
+
+  .special p:not(:last-child) {
+    margin: 0 0 1em 0; }
+
+  .special:not(:last-of-type) {
+    margin-bottom: 1em;
+    position: relative; }
+
+.burger-title {
+  font-size: 150%;
+  font-weight: 700;
+  margin: 0; }
+
+.ingredients {
+  background: #222;
+  color: #fff;
+  display: inline-block;
+  font-size: 80%;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 0.25em;
+  text-align: right; }
+
