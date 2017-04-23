@@ -1,0 +1,34 @@
+{
+  "burger": [
+    {
+      "id": 1,
+      "title": "Last of the Mo-jicama",
+      "ingridient": "jicama"
+    },
+    {
+      "id": 2,
+      "title": "Don't You Four Cheddar 'Bout Me Burger",
+      "ingridient": "four kinds of cheddar"
+    },
+    {
+      "id": 3,
+      "title": "Paranormal Pepper Jack-tivity Burger",
+      "ingridient": "pepper Jack cheese"
+    },
+    {
+      "id": 4,
+      "title": "Blondes Have More Fun-gus Burger",
+      "ingridient": "mushrooms"
+    },
+    {
+      "id": 5,
+      "title": "Foot Feta-ish Burger",
+      "ingridient": "feta cheese"
+    },
+    {
+      "id": 6,
+      "title": "The Child Molester",
+      "ingridient": "candy"
+    }
+  ]
+}
